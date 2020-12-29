@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         if (!init) {
             init = true
-            setTimerF(800000)
+            setTimerF(600000)
             firstRound()
             getButtonQ()
         }
@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
         if (round != 4) {
             round += 1
-            setTimerF(800000)
+            setTimerF(600000)
             setVisibleQ()
         }
 

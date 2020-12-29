@@ -63,7 +63,7 @@ private class DialogTimeoutListener(context: Context) : DialogInterface.OnShowLi
     }
 
     companion object {
-        private const val AUTO_DISMISS_MILLIS = 1 * 60 * 1000
+        private const val AUTO_DISMISS_MILLIS = 1 * 32 * 1000
     }
 }
 
