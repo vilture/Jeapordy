@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020480"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/nextBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            app:columnCount="6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:orientation="horizontal"
+            app:rowCount="5"
+            app:useDefaultMargins="true">
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill_horizontal"
+                app:layout_row="0"
+                app:layout_rowWeight="1" />
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill_horizontal"
+                app:layout_row="1"
+                app:layout_rowWeight="1" />
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill_horizontal"
+                app:layout_row="2"
+                app:layout_rowWeight="1" />
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill_horizontal"
+                app:layout_row="3"
+                app:layout_rowWeight="1" />
+
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="fill_horizontal"
+                app:layout_row="4"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/q1v100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/q1v200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="2"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/q1v300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="3"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/q1v400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="400"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="4"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/q1v500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="5"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/q2v100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/q2v200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="2"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/q2v300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="3"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/q2v400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="400"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="4"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/q2v500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="5"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/q3v100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_row="2" />
+
+            <Button
+                android:id="@+id/q3v200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="2"
+                app:layout_row="2" />
+
+            <Button
+                android:id="@+id/q3v300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="3"
+                app:layout_row="2" />
+
+            <Button
+                android:id="@+id/q3v400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="400"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="4"
+                app:layout_row="2" />
+
+            <Button
+                android:id="@+id/q3v500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="5"
+                app:layout_row="2" />
+
+            <Button
+                android:id="@+id/q4v100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/q4v200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="2"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/q4v300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="3"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/q4v400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="400"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="4"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/q4v500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="5"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/q5v100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text="100"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_row="4" />
+
+            <Button
+                android:id="@+id/q5v200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text="200"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="2"
+                app:layout_row="4" />
+
+            <Button
+                android:id="@+id/q5v300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="3"
+                app:layout_row="4" />
+
+            <Button
+                android:id="@+id/q5v400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="400"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="4"
+                app:layout_row="4" />
+
+            <Button
+                android:id="@+id/q5v500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:textColor="#FFD600"
+                android:textSize="24sp"
+                app:layout_column="5"
+                app:layout_row="4" />
+
+
+        </androidx.gridlayout.widget.GridLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/finishTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nextBtn"
+        app:layout_constraintTop_toBottomOf="@+id/horizontal_scroll" />
+
+    <FrameLayout
+        android:id="@+id/CatScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="2dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/catImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cat"
+            android:contentDescription="@drawable/cat" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

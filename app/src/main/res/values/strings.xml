@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Своя игра</string>
+    <string name="startbtn">СТАРТ</string>
+    <string name="next">Следующий тур</string>
+</resources>
