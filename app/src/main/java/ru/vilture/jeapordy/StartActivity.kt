@@ -5,6 +5,7 @@ import android.media.MediaPlayer
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_start.*
+import kotlin.system.exitProcess
 
 class StartActivity : AppCompatActivity() {
     var sound: MediaPlayer? = null
@@ -29,5 +30,11 @@ class StartActivity : AppCompatActivity() {
         super.onStop()
 
         sound?.release()
+    }
+
+    override fun onBackPressed() {
+        moveTaskToBack(true)
+        android.os.Process.killProcess(android.os.Process.myPid())
+        exitProcess(1)
     }
 }

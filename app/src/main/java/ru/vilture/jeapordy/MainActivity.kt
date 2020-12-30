@@ -607,7 +607,9 @@ class MainActivity : AppCompatActivity() {
                     "Банош - ароматная кукурузная каша со сметаной и сливками, это национальное блюдо какой страны?",
                     this
                 ).load()
-                3 -> Question("", this).load()
+                // тетрис
+                3 -> Question("Эту видеоигру выпустил Советский Союз ставшая одной из самых известных видеоигр в истории, " +
+                        "а автором её был Алексей Пажитнов", this).load()
             }
 
             q5v300.visibility = View.INVISIBLE
@@ -677,4 +679,6 @@ class MainActivity : AppCompatActivity() {
         q5v400.visibility = View.VISIBLE
         q5v500.visibility = View.VISIBLE
     }
+
+    override fun onBackPressed() {}
 }
