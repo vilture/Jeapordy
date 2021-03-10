@@ -12,11 +12,12 @@
         android:textAlignment="center"
         tools:context=".FinalActivity">
 
+<!--        финальные вопросы-->
         <Button
             android:id="@+id/finalQ1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Канцелярия"
+            android:text="@string/finalT1"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +28,7 @@
             android:id="@+id/finalQ2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Города и страны"
+            android:text="@string/finalT2"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +38,7 @@
             android:id="@+id/finalQ3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Личности"
+            android:text="@string/finalT3"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +48,7 @@
             android:id="@+id/finalQ4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Техника"
+            android:text="@string/finalT4"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +58,7 @@
             android:id="@+id/finalQ5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Фрукты"
+            android:text="@string/finalT5"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +68,7 @@
             android:id="@+id/finalQ6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Актеры"
+            android:text="@string/finalT6"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -77,11 +78,12 @@
             android:id="@+id/finalQ7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Цитаты"
+            android:text="@string/finalT7"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/finalQ6" />
+<!--        end-->
 
         <TextView
             android:id="@+id/tx_question"
