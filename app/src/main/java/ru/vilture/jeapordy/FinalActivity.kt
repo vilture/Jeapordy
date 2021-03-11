@@ -63,7 +63,8 @@ class FinalActivity : AppCompatActivity() {
             if (winner.isVisible)
                 startWinner()
             else
-                startTimer()
+                if (finishTimer.text == "")
+                    startTimer()
         }
     }
 
@@ -133,9 +134,11 @@ class FinalActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        finish()
-        val intent = Intent(this@FinalActivity, StartActivity::class.java)
-        startActivity(intent)
+        if (WinnerScreen.visibility == View.VISIBLE) {
+            finish()
+            val intent = Intent(this@FinalActivity, StartActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 

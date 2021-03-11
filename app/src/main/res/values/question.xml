@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--    темы-->
-    <string name="t1.1">Новый год</string>
-    <string name="t1.2">Спокойной ночи</string>
-    <string name="t1.3">География"</string>
-    <string name="t1.4">Мультфильмы</string>
-    <string name="t1.5">Автомобили</string>
+    <string name="t1.1">Футбол</string>
+    <string name="t1.2">Столицы мира</string>
+    <string name="t1.3">Экономика</string>
+    <string name="t1.4">Флот</string>
+    <string name="t1.5"></string>
 
-    <string name="t2.1">Зимние виды спорта</string>
-    <string name="t2.2">Фамилии на букву "М"</string>
-    <string name="t2.3">Россия</string>
+    <string name="t2.1">Музыка</string>
+    <string name="t2.2">Фамилии на букву «М»</string>
+    <string name="t2.3">Обувь</string>
     <string name="t2.4">Фильмы</string>
     <string name="t2.5">Кухни мира</string>
 
-    <string name="t3.1">Полярники</string>
-    <string name="t3.2">Праздники</string>
+    <string name="t3.1">Курьезные случаи</string>
+    <string name="t3.2">Чемпионаты</string>
     <string name="t3.3">Животный мир</string>
-    <string name="t3.4">Литература</string>
-    <string name="t3.5">В былые времена</string>
+    <string name="t3.4">Напитки</string>
+    <string name="t3.5">Мэрилин Монро</string>
+
 
     <!--    вопросы-->
 
     <!--    раунд 1-->
     <!--    тема 1-->
-    <string name="q1.1.100">Праздничный антипод Нового года</string>
+    <string name="q1.1.100">В какой стране появился и начал развиваться футбол?</string>
     <string name="q1.1.200">Страна первой украшенной елочки</string>
     <string name="q1.1.300">Йоулупукки, Пер-Ноэль, Баббо Натале – кто это?</string>
     <string name="q1.1.400">До Петра Великого Новый год начинался в этом месяце</string>
@@ -67,7 +68,7 @@
     <string name="q2.2.200">Он покорил Вавилон, Сузу, Персеполь, и стал царем персидской империи</string>
     <string name="q2.2.300">Друг и единомышленник Фридриха Энгельса, участник февральской революции 1848г во Франции</string>
     <string name="q2.2.400">Польский гипнотизер и телепат, начинавший как артист цирка</string>
-    <string name="q2.2.500">Её звани Норма Джин, хотя она была известна под таким имененм</string>
+    <string name="q2.2.500">Её звали Норма Джин, хотя она была известна под таким именем</string>
     <!--    тема 3-->
     <string name="q2.3.100">В каком городе родился президент РФ Путин В.В</string>
     <string name="q2.3.200">Где расположено крупнейшее в России месторождение алмазов?</string>
